@@ -1,18 +1,13 @@
 import React from "react";
-import dp1 from "../assets/dp1.jpg";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
+import dp5 from "../assets/dp5.jpg";
+import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div>
-      <div
-        className="align-center mx-auto flex h-[80vh] max-w-[1200px] flex-col-reverse justify-center  sm:flex-row"
-        id="hero"
-      >
-        <div className="mx-auto my-auto flex-col md:mx-0">
+    <div className="min-h-screen bg-gray-900">
+      <div className="mx-auto flex max-w-7xl flex-col-reverse items-center justify-center px-4 sm:px-6 lg:flex-row lg:px-8">
+        <div className="text-center lg:w-3/5 lg:text-left">
           <p className="text-xl font-bold text-gray-200 sm:text-4xl md:text-5xl">
             Hi! I am Charu Sharma
           </p>
@@ -24,36 +19,28 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="flex items-center justify-center">
-            {/* <p className="text-xl font-bold text-gray-500 sm:text-4xl md:text-5xl">
-              with 1+ years experience
-            </p> */}
-          </div>
-
-          <div className="my-7 flex justify-start gap-16 text-5xl text-purple-600">
+          <div className="my-7 flex justify-center gap-16 text-5xl text-purple-600 lg:justify-start">
             <AiFillLinkedin />
             <AiFillGithub />
             <AiFillInstagram />
           </div>
-
           <div className="group relative my-3 inline-flex">
             <div className="animate-tilt absolute -inset-px rounded-xl bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] opacity-70 blur-lg transition-all duration-1000 group-hover:-inset-1 group-hover:opacity-100 group-hover:duration-200"></div>
             <a
               href="https://drive.google.com/file/d/1lbL3ASr7kNrZTUMWdQWo1oS1qGJiD1iI/view?usp=sharing"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
               title="Download CV"
-              role="button"
-              className="bg-primary-color font-pj relative inline-flex h-[60px] w-[190px] items-center justify-center rounded-xl px-8 py-4 text-lg font-bold text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+              className="bg-primary-color font-pj relative inline-flex h-[60px] w-[190px] items-center justify-center rounded-xl px-8 py-4 text-lg font-bold text-white shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 lg:h-[80px] lg:w-[220px]"
             >
               Download CV
             </a>
           </div>
         </div>
-
-        <div className="my-auto">
+        <div className="lg:w-2/5">
           <img
-            className="mx-auto h-auto w-[300px] rounded-full sm:w-[500px]"
-            src={dp1}
+            className="mx-auto h-auto w-full rounded-full  p-11 shadow-lg sm:w-[300px] lg:w-[500px]"
+            src={dp5}
             alt="profile pic"
           />
         </div>

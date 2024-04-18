@@ -6,7 +6,6 @@ import MyEducation from "./components/MyEducation";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
-import Dummy from "./components/Dummy.jsx";
 
 function App() {
   return (
