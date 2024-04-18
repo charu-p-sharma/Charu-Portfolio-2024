@@ -11,14 +11,13 @@ import Dummy from "./components/Dummy.jsx";
 function App() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <About />
       <Work />
       <MyEducation />
       <Contact />
-      <Footer /> */}
-      <Dummy></Dummy>
+      <Footer />
     </>
   );
 }
