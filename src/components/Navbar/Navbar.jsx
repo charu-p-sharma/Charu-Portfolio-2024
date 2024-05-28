@@ -61,7 +61,7 @@ const Navbar = () => {
         }
       >
         <h1 className="logo primary-color mt-2 cursor-pointer select-none text-center text-3xl font-bold">
-          Pramod
+          Charu Sharma
         </h1>
         <ul className="navList p-5 text-xl">
           <a href="#home">
