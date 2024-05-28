@@ -1,22 +1,25 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Work from "./components/Projects";
-import MyEducation from "./components/MyEducation";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import SkillScroll from "./components/Skills/SkillScroll";
+import ScrollTop from "./components/ScrollTopBtn/ScrollTop";
+import Project from "./components/Projects/Project";
+import Connect from "./components/Connect/Connect";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Work />
-      <MyEducation />
-      <Contact />
-      <Footer />
+      <div>
+        <ScrollTop></ScrollTop>
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <SkillScroll></SkillScroll>
+        <About></About>
+        <Project></Project>
+        <Connect></Connect>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
