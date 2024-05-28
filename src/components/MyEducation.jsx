@@ -5,7 +5,7 @@ const MyEducation = () => {
     <div
       className="bg-[#232325] py-10
   "
-      id="myEducation"
+      id="education"
     >
       <h2 className="mb-8 text-center text-3xl text-white">
         My <span>Education</span>{" "}

@@ -20,11 +20,25 @@ const About = () => {
                 About <span className="primary-text">Me</span>{" "}
               </h3>
               <p className="w-full text-base leading-7 sm:text-lg md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                rerum facere culpa dolores. Natus deleniti hic labore harum iste
-                expedita sequi cumque, architecto iusto recusandae officia,
-                consequatur rem! Et rem, minus eius veritatis fugit quibusdam
-                suscipit earum asperiores eveniet minima.
+                <p>
+                  As a fresh software developer with a passion for front-end
+                  development and UI/UX design, I bring a unique blend of
+                  technical and creative skills to the table.
+                </p>
+                <br />
+                <p>
+                  I'm adapt at problem-solving and have hands-on experience
+                  working on medium scale projects utilizing the MERN stack
+                  approach. With a strong foundation in web development, I am
+                  eager to contribute to building user-friendly interfaces and
+                  dynamic web applications that seamlessly blend, form and
+                  function.
+                </p>
+                <br />
+                <p>
+                  My goal is to continually learn and grow in the field by
+                  delivering innovative solutions that engage and delight users.
+                </p>
               </p>
             </div>
           </div>
